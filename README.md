@@ -12,3 +12,4 @@ Nesse repositório serão armazenados os gráficos e os códigos feitos por mim 
 
 [Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/07-07-2020_Coffee%20ratings/plot/07-07-2020.gif)  
 [Código](https://github.com/pedrodrocha/TidyTuesday/blob/master/07-07-2020_Coffee%20ratings/code/07-07-2020.R)
+[Blog (Tutorial)] (http://pedrodrocha.com/2020-07-07-TidyTuesday_2/)
