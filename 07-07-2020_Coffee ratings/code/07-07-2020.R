@@ -22,7 +22,7 @@ plot <- function(year){ # Recebe ano de argumento
   
   # Transformação dos dados
   transform <- coffe_ratings %>% 
-    mutate(country_of_origin = ifelse(country_of_origin == "Tanzania, United Republic Of","Tanzania",country_of_origin)) %>%  # Kimpando o nome da Tanzania
+    mutate(country_of_origin = ifelse(country_of_origin == "Tanzania, United Republic Of","Tanzania",country_of_origin)) %>%  # Limpando o nome da Tanzania
     mutate(grading_year = as.numeric((str_extract(grading_date, "[0-9]{4}")))) %>%  # Usando regex para criar uma coluna de anos
     filter(species == "Arabica") %>% # Filtrando para o Arabica
     filter(grading_year == year) %>% # O argumento do ano vem aqui 
