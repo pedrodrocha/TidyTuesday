@@ -50,17 +50,30 @@ plot <- function(year){ # Recebe ano de argumento
 }
 
 
-# Dataframe de anos para iteração
-years <- tibble(years = as.character(2010:2018))
+
 
 # Iteração para criar um plot pra cada ano
+years <- tibble(years = as.character(2010:2018))
+
 for (year in years$years){
   plot(year)
   ggsave(filename = paste0(year,".png"),
          plot = last_plot())
 }
 
+# Iteração para criar um caminho por ano
+paths <- tibble(paths = NA) 
+
+for (year in years$years){
+  print(year)
+  path <- tibble(paths = paste0(year, ".png"))
+  
+  paths <- rbind(paths,path)
+}  
+
+paths <- drop_na(paths)
+
 # Criando o gif
-gifski::gifski(png_files = c("2010.png","2011.png","2012.png","2013.png","2014.png","2015.png","2015.png","2016.png","2017.png","2018.png"),
+gifski::gifski(png_files = paths$paths,
                width = 802, height = 323) # PERIGO - o tamanho aqui tem que ser em pixels. Para conversão dos valores: http://auctionrepair.com/pixels.html
 
