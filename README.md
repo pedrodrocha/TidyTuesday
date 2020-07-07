@@ -10,5 +10,5 @@ Nesse repositório serão armazenados os gráficos e os códigos feitos por mim 
 
 ### Semana 28: Coffee Ratings
 
-[Gráfico](https://raw.githubusercontent.com/pedrodrocha/TIdyTuesday-pedro_drocha/master/07-07-2020_Coffee%20ratings/plot/2020-07-07.gif?token=APBPDEBL7DYMRVCUFT5CJY27APREM)  
-[Código](https://github.com/pedrodrocha/TIdyTuesday-pedro_drocha/blob/master/07-07-2020_Coffee%20ratings/code/07-07-2020.R)
+[Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/07-07-2020_Coffee%20ratings/plot/07-07-2020.gif)  
+[Código](https://github.com/pedrodrocha/TidyTuesday/blob/master/07-07-2020_Coffee%20ratings/code/07-07-2020.R)
