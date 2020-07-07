@@ -49,9 +49,6 @@ plot <- function(year){ # Recebe ano de argumento
   return(plt)
 }
 
-
-
-
 # Iteração para criar um plot pra cada ano
 years <- tibble(years = as.character(2010:2018))
 
