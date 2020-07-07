@@ -6,7 +6,7 @@ Nesse repositório serão armazenados os gráficos e os códigos feitos por mim 
 
 [Gráfico](https://raw.githubusercontent.com/pedrodrocha/TIdyTuesday-pedro_drocha/master/30-06-2020_The_Claremont_Run/graphs/30-06-2020.png?token=APBPDEAKPTG4653OEOA5R227APOMC)  
 [Código](https://github.com/pedrodrocha/TIdyTuesday-pedro_drocha/blob/master/30-06-2020_The_Claremont_Run/code/30-06-2020.R)  
-[Blog](http://pedrodrocha.com/2020-07-01-TidyTuesday_1/)
+[Blog (Tutorial)](http://pedrodrocha.com/2020-07-01-TidyTuesday_1/)
 
 ### Semana 28: Coffee Ratings
 
