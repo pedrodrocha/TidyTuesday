@@ -1,22 +1,4 @@
 # PACKAGES
-library(claremontrun)
-library(tidyverse)
-library(lubridate)
-library(cowplot)
-library(stringr)
-library(skimr)
-library(ggthemes)
-library(ggdark)
-library(RColorBrewer)
-library(knitr)
-library(ggrepel)
-library(textcat)
-library(ggthemr)
-library(skimr)
-library(stringr)
-library(hrbrthemes)
-library(corrr)
-# ============================================================================================================================ #
 library(tidyverse)
 library(claremontrun)
 library(hrbrthemes)
@@ -49,7 +31,7 @@ dat %>%
               caption_size = 8) +
   labs(x = "Character", y = "Visible number of tear instances",
        title = "Ranking of crying characters",
-       subtitle = "Chris Claremont’s iconic run on Uncanny X-Men (1975-1991)",
+       subtitle = "Chris Claremontâ€™s iconic run on Uncanny X-Men (1975-1991)",
        caption = "Source: Claremont Run project")
 
 
