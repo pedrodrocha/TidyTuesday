@@ -54,9 +54,6 @@ curve2 <- tibble(x = 1962,
 # PLOT
 
 ggplot(astronauts) +
-  annotation_custom(rast,
-                    xmin = 1970, xmax = 1975,
-                    ymin = 66, ymax = 70) +
   geom_point(aes(x = year_of_mission,
                  y = age,
                  color = military_civilian), 
@@ -77,8 +74,8 @@ ggplot(astronauts) +
            family = "Garamond",
            face = "bold"
            ) +
-  scale_x_continuous(breaks = seq(1960,2020,10))+
   theme_void() +
+  scale_x_continuous(breaks = seq(1960,2020,10))+
   scale_color_manual(values = c("#F38155","#A11936")) +
   geom_textbox(
     data = tibble(
@@ -100,6 +97,9 @@ ggplot(astronauts) +
     hjust = .5,
     vjust = 0
   ) + 
+  annotation_custom(rast,
+                    xmin = 1970, xmax = 1975,
+                    ymin = 66, ymax = 70) +
   geom_curve(data = curve1,
              aes(x = x,xend = xend,
                  y = y, yend = yend),
