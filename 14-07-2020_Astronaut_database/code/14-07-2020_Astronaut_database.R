@@ -7,6 +7,7 @@ library(ggimage)
 library(ggtext)
 library(png)
 library(grid)
+library(pdftools)
 
 # =========================================
 # DADOS
@@ -14,17 +15,10 @@ library(grid)
 # Dataset
 astronauts <- tidytuesdayR::tt_load(2020, week = 29)[[1]]
 
-# Transformação
+# TransformaÃ§Ã£o
 astronauts %>% 
   mutate(
     age = astronauts$year_of_mission - astronauts$year_of_birth,
-    occupation = if_else(occupation == "flight engineer","Flight engineer",occupation),
-    occupation = if_else(occupation == "Other (Journalist)","Journalist",occupation),
-    occupation = if_else(occupation == "pilot","Pilot",occupation),
-    occupation = if_else(occupation == "Other (space tourist)","Space tourist",occupation),
-    occupation = if_else(occupation == "Other (Space tourist)","Space tourist",occupation),
-    occupation = if_else(occupation == "commander","Commander",occupation),
-    occupation = if_else(occupation == "spaceflight participant","Spaceflight participant",occupation),
     military_civilian = if_else(military_civilian == "civilian","Civilian","Military")
   ) -> astronauts
 
@@ -37,7 +31,6 @@ astronauts %>%
 
 
 # Imagens
-loadfonts(device = "win") 
 img <- readPNG(here::here("img", "spaceship.png"))
 rast <- rasterGrob(img, interpolate = TRUE)
 
@@ -94,7 +87,7 @@ ggplot(astronauts) +
       label = glennjr
     ),
     aes(
-      x = x, y = y, label = gleenjr
+      x = x, y = y, label = glennjr
     ),
     inherit.aes = F,
     family = "Garamond",
@@ -167,9 +160,14 @@ ggplot(astronauts) +
     ) -> plot
 
 
+ggsave("14-07-2020_Astronaut-Database.pdf",
+       plot = last_plot(),
+       width = 12.6,
+       height = 7.67,
+       device = cairo_pdf)
 
-ggsave("14-07-2020_Astronaut-Database/plot/14-07-2020_Astronaut-Database.png",
-       plot = plot)
+pdf_convert(pdf = "14-07-2020_Astronaut-Database.pdf",
+            format = "png", dpi = 400)
 
 
 
