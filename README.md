@@ -8,7 +8,7 @@ Nesse repositório serão armazenados os gráficos e os códigos feitos por mim 
 
 ### Semana 29: Astronaut Database
 
-[Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/14-07-2020_Astronaut_database/plot/14-07-2020_Astronaut-Database.png)
+[Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/14-07-2020_Astronaut_database/plot/14-07-2020_Astronaut-Database.png)  
 [Código](https://github.com/pedrodrocha/TidyTuesday/blob/master/14-07-2020_Astronaut_database/code/14-07-2020_Astronaut_database.R)
 
 ### Semana 28: Coffee Ratings
