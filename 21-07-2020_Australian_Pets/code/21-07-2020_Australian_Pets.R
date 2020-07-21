@@ -72,7 +72,6 @@ ggplot(
         y = N)
 ) +
   scale_x_discrete(
-    limits = c("Year", "State", "Outcome"), 
     expand = c(.2, .05)
   ) +
   scale_fill_manual(values = c("#746c84","#dda670")) +
