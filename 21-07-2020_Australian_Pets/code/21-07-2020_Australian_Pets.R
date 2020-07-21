@@ -46,9 +46,6 @@ animal_outcomes_tidy %>%
   group_by(state_or_territory, animal_type, outcome, year) %>% 
   summarise(N = sum(N, na.rm = T)) -> animal_outcomes_tidy_summarised
 
-
-
-
 animal_outcomes_tidy_summarised %>% 
   filter(state_or_territory != "Australia") %>% 
   filter(outcome != "Currently In Care") %>% 
@@ -66,7 +63,6 @@ animal_outcomes_tidy_summarised %>%
     )
   ) -> alluv
   
-
 ######################### PLOT #####################################################
 ggplot(
   data = alluv,
@@ -106,6 +102,5 @@ ggplot(
   )
 
 ######################### SAVING PLOT ################################################
-
 ggsave("21-07-2020_Australian-Pets/plot/21-07-2020.png",
        plot = last_plot())
