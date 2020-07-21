@@ -20,7 +20,7 @@ animal_complaints <- tuesdata$animal_complaints
 
 brisbane_complaints <- tuesdata$brisbane_complaints
 
-######################### DATA TRANSFORMATION #####################################
+######################### DATA TRANSFORMATION ######################################
 animal_outcomes %>% 
   pivot_longer(
     ACT:Total,
@@ -67,18 +67,32 @@ animal_outcomes_tidy_summarised %>%
   ) -> alluv
   
 
-######################### PLOT ####################################################################
-ggplot(data = alluv,
+######################### PLOT #####################################################
+ggplot(
+  data = alluv,
     aes(axis1 = year,
         axis2 = state_or_territory,
         axis3 = outcome,
-        y = N)) +
-  scale_x_discrete(limits = c("Year", "State", "Outcome"), expand = c(.2, .05)) +
+        y = N)
+) +
+  scale_x_discrete(
+    limits = c("Year", "State", "Outcome"), 
+    expand = c(.2, .05)
+  ) +
   scale_fill_manual(values = c("#746c84","#dda670")) +
   geom_alluvium(aes(fill = animal_type), width = 1/12) +
   geom_stratum(fill = "#DFDFDF") +
-  geom_text(stat = "stratum",aes(label = after_stat(stratum)), size = 3, family = "Book Antiqua", colour = "#282423") + 
-  labs(title = "RSPCA rescued pets outcomes per Australian State (1999-2018)", caption = "TidyTuesday #31 | @pedro_drocha | Data: Royal Society for the Prevention of Cruelty to Animals") +
+  geom_text(
+    stat = "stratum",
+    aes(label = after_stat(stratum)), 
+    size = 3, 
+    family = "Book Antiqua", 
+    colour = "#282423"
+  ) + 
+  labs(
+    title = "RSPCA rescued pets outcomes per Australian State (1999-2018)", 
+    caption = "TidyTuesday #31 | @pedro_drocha | Data: Royal Society for the Prevention of Cruelty to Animals"
+  ) +
   theme_void() +
   theme(
     text = element_text(colour = "#282423"),
@@ -91,6 +105,7 @@ ggplot(data = alluv,
     plot.margin = margin(4, 4, 4, 4)
   )
 
-######################### SAVING PLOT ##############################################################
+######################### SAVING PLOT ################################################
+
 ggsave("21-07-2020_Australian-Pets/plot/21-07-2020.png",
        plot = last_plot())
