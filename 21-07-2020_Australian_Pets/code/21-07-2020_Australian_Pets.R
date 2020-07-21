@@ -1,7 +1,7 @@
 ####################################################################################
 # Title: RSPCA rescued pets outcomes per Australian State (1999-2018)
 # Autor: @pedro_drocha
-# Purpouse: TidyTuesday Visualization - Week 30 - Australian Pets
+# Purpose: TidyTuesday Visualization - Week 30 - Australian Pets
 # Date: 21-07-2020
 ####################################################################################
 
