@@ -2,9 +2,10 @@
 
 Nesse repositório serão armazenados os gráficos e os códigos feitos por mim em cada semana do [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md)
 
+### Semana 30: Australian Pets
 
-
-
+[Gráfico]()
+[Código](https://github.com/pedrodrocha/TidyTuesday/blob/master/21-07-2020_Australian_Pets/code/21-07-2020_Australian_Pets.R)
 
 ### Semana 29: Astronaut Database
 
