@@ -1,7 +1,7 @@
 ####################################################################################
 # Title: RSPCA rescued pets outcomes per Australian State (1999-2018)
 # Autor: @pedro_drocha
-# Purpouse: TidyTuesday Visualization - Week 31 - Australian Pets
+# Purpouse: TidyTuesday Visualization - Week 30 - Australian Pets
 # Date: 21-07-2020
 ####################################################################################
 
@@ -91,7 +91,7 @@ ggplot(
   ) + 
   labs(
     title = "RSPCA rescued pets outcomes per Australian State (1999-2018)", 
-    caption = "TidyTuesday #31 | @pedro_drocha | Data: Royal Society for the Prevention of Cruelty to Animals"
+    caption = "TidyTuesday #30 | @pedro_drocha | Data: Royal Society for the Prevention of Cruelty to Animals"
   ) +
   theme_void() +
   theme(
