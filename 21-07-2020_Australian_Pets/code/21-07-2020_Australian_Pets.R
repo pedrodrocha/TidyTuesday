@@ -57,7 +57,7 @@ animal_outcomes_tidy_summarised %>%
   )) %>% 
   mutate(
     outcome = case_when(
-      outcome == "In Stock" ~ "Other",
+      outcome == "In Stock"    ~ "Other",
       outcome == "Transferred" ~ "Other",
       TRUE ~ outcome
     )
