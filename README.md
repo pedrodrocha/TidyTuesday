@@ -6,6 +6,7 @@ Nesse repositório serão armazenados os gráficos e os códigos feitos por mim 
 
 [Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/21-07-2020_Australian_Pets/plot/21-07-2020.png)  
 [Código](https://github.com/pedrodrocha/TidyTuesday/blob/master/21-07-2020_Australian_Pets/code/21-07-2020_Australian_Pets.R)
+[Blog](http://pedrodrocha.com/2020-07-23-TidyTuesday_4/)
 
 ### Semana 29: Astronaut Database
 
