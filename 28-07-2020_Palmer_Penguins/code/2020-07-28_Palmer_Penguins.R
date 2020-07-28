@@ -262,12 +262,12 @@ plot <- (p1 + p2) / (p3 + p4)  +
 
 
 ################### SAVING  #####################################################################
-ggsave("2020-02-28_Palmer_Penguins.pdf",
+ggsave("2020-07-28_Palmer_Penguins.pdf",
        plot = plot,
        width = 10.5,
        height = 8.5,
        device = cairo_pdf)
 
-pdf_convert(pdf = "2020-02-28_Palmer_Penguins.pdf",
+pdf_convert(pdf = "2020-07-28_Palmer_Penguins.pdf",
             format = "png", dpi = 400)
 
