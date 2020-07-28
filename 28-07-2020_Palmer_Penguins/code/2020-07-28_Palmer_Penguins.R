@@ -1,11 +1,11 @@
-####################################################################################
-# Title: 
+################################################################################################
+# Title: Penguin species from the **Palmer Archipelago** and their different size measurements
 # Author: @pedro_drocha
 # Purpose: TidyTuesday Visualization - Week 31 - Palmer Penguins
 # Date: 21-07-2020
-####################################################################################
+################################################################################################
 
-################# PACKAGES #########################################################
+################# PACKAGES #####################################################################
 library(tidyverse) 
 library(tidytuesdayR) 
 library(patchwork)
@@ -13,13 +13,12 @@ library(ggtext)
 library(glue)
 library(pdftools)
 
-################### IMPORTING DATA #################################################
+################### IMPORTING DATA #############################################################
 
 tuesdata <- tidytuesdayR::tt_load(2020, week = 31)
-tuesdata
 penguins <- tuesdata$penguins
 
-################### PLOT SETUP #################################################
+################### SETUP #####################################################################
 
 penguins %>% 
   filter(species == "Adelie") %>% 
@@ -37,11 +36,9 @@ penguins %>%
   drop_na() -> penguins_gentoo
 
 
-penguins %>% 
-  mutate(body_mass_kg = body_mass_g/1000) -> penguins
+################### PLOT  ######################################################################
 
-################### PLOT  #################################################
-
+## Body Mass plot
 penguins %>%
   drop_na() %>% 
   ggplot() +
@@ -95,7 +92,7 @@ penguins %>%
 
 
 
-
+## Flipper Length plot
 penguins %>%
   drop_na() %>% 
   ggplot() +
@@ -148,7 +145,7 @@ penguins %>%
         plot.title = element_markdown(family = "Garamond", hjust = 0.5)) -> p2
 
 
-
+## Bill Depth plot
 penguins %>%
   drop_na() %>% 
   ggplot() +
@@ -200,7 +197,7 @@ penguins %>%
         text = element_text(family = "Garamond"),
         plot.title = element_markdown(family = "Garamond", hjust = 0.5)) -> p3
 
-
+## Bill Length plot
 penguins %>%
   drop_na() %>% 
   ggplot() +
@@ -252,9 +249,10 @@ penguins %>%
         text = element_text(family = "Garamond"),
         plot.title = element_markdown(family = "Garamond", hjust = 0.5)) -> p4
 
+## Patchwork
 plot <- (p1 + p2) / (p3 + p4)  + 
   plot_annotation(title = "**Penguin** species from the **Palmer Archipelago** are all adorable, but their size measurements are quite different",  
-                  subtitle = "<b style='color:#ff4c00;'> Adelies</b> have on average almost twice the _body mass_ of <b style='color:#7a28a3;'>Chinstraps</b> and <b style='color:#008B8B;'>Gentoos</b>.The _flippers_ of <b style='color:#008B8B;'>Gentoos</b> are usually larger than<br> the ones from <b style='color:#ff4c00;'> Adelies</b>  or <b style='color:#7a28a3;'>Chinstraps</b>.<b style='color:#ff4c00;'> Adelies</b>\' _bill depth_  are the same size as those from <b style='color:#7a28a3;'>Chinstraps</b> and 3mm larger than the<br> ones from <b style='color:#008B8B;'>Gentoos</b>. On the other hand, their _bill length_ are usually smaller if compared to the ones from both <b style='color:#7a28a3;'>Chinstraps</b><br> and <b style='color:#008B8B;'>Gentoos</b>, whose _bill length_ are on average almost the same.",
+                  subtitle = "<b style='color:#008B8B;'>Gentoos</b> have on average almost twice the _body mass_ of <b style='color:#7a28a3;'>Chinstraps</b> and <b style='color:#ff4c00;'> Adelies</b>.The _flippers_ of <b style='color:#008B8B;'>Gentoos</b> are also usually larger than<br> the ones from <b style='color:#ff4c00;'> Adelies</b>  or <b style='color:#7a28a3;'>Chinstraps</b>.<b style='color:#ff4c00;'> Adelies</b>\' _bill depth_  are the same size as those from <b style='color:#7a28a3;'>Chinstraps</b> and 3mm larger than the<br> ones from <b style='color:#008B8B;'>Gentoos</b>. On the other hand, their _bill length_ are usually smaller if compared to the ones from both <b style='color:#7a28a3;'>Chinstraps</b><br> and <b style='color:#008B8B;'>Gentoos</b>, whose _bill length_ are on average almost the same.",
                   caption = "TidyTuesday #31 | @pedro_drocha | Data: @kbgorman_ecoevo & @PalmerLTER team",
                   theme = theme(plot.title = element_markdown(family = "Garamond", size = 16, hjust = 0.5),
                                 plot.subtitle = element_markdown(family = "Garamond",size = 13.5, hjust = 0.5),
@@ -262,7 +260,7 @@ plot <- (p1 + p2) / (p3 + p4)  +
                                 plot.caption  = element_text(size = 11,hjust = 0.5, family = "Garamond", face = "italic"))) 
 
 
-
+################### SAVING  #####################################################################
 ggsave("2020-02-28_Palmer_Penguins.pdf",
        plot = plot,
        width = 10.5,
@@ -271,3 +269,4 @@ ggsave("2020-02-28_Palmer_Penguins.pdf",
 
 pdf_convert(pdf = "2020-02-28_Palmer_Penguins.pdf",
             format = "png", dpi = 400)
+
