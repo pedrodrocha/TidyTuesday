@@ -6,12 +6,13 @@
 ################################################################################################
 
 ################# PACKAGES #####################################################################
-library(tidyverse) 
-library(tidytuesdayR) 
-library(patchwork)
-library(ggtext)
-library(glue)
-library(pdftools)
+library(tidyverse) # ggplot, et. al.
+library(tidytuesdayR) # For the data
+library(patchwork) # For the plot
+library(ggtext) # For markdown labels
+library(glue) # For code inside string
+library(pdftools) # For saving the plot
+library(extrafont) # For font
 
 ################### IMPORTING DATA #############################################################
 
@@ -264,7 +265,7 @@ plot <- (p1 + p2) / (p3 + p4)  +
 ggsave("2020-02-28_Palmer_Penguins.pdf",
        plot = plot,
        width = 10.5,
-       height = 7.67,
+       height = 8.5,
        device = cairo_pdf)
 
 pdf_convert(pdf = "2020-02-28_Palmer_Penguins.pdf",
