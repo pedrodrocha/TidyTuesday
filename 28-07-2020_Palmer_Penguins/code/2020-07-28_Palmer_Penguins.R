@@ -1,6 +1,6 @@
 ################################################################################################
 # Title: Penguin species from the Palmer Archipelago and their different size measurements
-# Author: @pedro_drocha
+# Author: Pedro D. Rocha (@pedro_drocha)
 # Purpose: TidyTuesday Visualization - Week 31 - Palmer Penguins
 # Date: 27-07-2020
 ################################################################################################
