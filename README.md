@@ -3,7 +3,8 @@
 Nesse repositório serão armazenados os gráficos e os códigos feitos por mim em cada semana do [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md)
 
 ### Semana 31: Palmer Penguins
-
+[Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/28-07-2020_Palmer_Penguins/plot/2020-02-28_Palmer_Penguins11_1.png)  
+[Código](https://github.com/pedrodrocha/TidyTuesday/blob/master/28-07-2020_Palmer_Penguins/code/2020-07-28_Palmer_Penguins.R)  
 
 ### Semana 30: Australian Pets
 
