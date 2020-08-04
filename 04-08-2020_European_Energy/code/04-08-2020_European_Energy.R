@@ -65,7 +65,7 @@ country_totals %>%
 
 
 # ----- Excluding Level 2 (for country totals): thanks a lot 
-# ----- Tom Mock (@thomas_mock) and Yobanny Sámano (@ysamano28) for the heads-up
+# ----- Tom Mock (@thomas_mock) and Yobanny SÃ¡mano (@ysamano28) for the heads-up
 energy_types %>% 
   filter(level == "Level 1") -> energy_types
 
@@ -102,12 +102,6 @@ energy %>%
 
 
 # ===================== SETUP ==================================================
-
-# ----- 100% mark 2016
-tibble(country_name = unique(energy$country_name),
-       total_percent = 100) -> tot_percent
-tot_percent -> tot_percent %>% 
-  mutate(country_name = glue("<b style='color:#787878'>{country_name}</b>"))
 
 # ---- Base for axis color 2017
 
@@ -262,6 +256,7 @@ energy_renewable %>%
         legend.position = "none",
         plot.title = element_markdown(hjust = .5,family = "Garamond")) -> b
 
+# ---- patchwork
 plot <- a + b +
   plot_annotation(title = "**A long road ahead for 100% renewable energy 
                   production in Europe**",
