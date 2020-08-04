@@ -2,6 +2,11 @@
 
 Nesse repositório serão armazenados os gráficos e os códigos feitos por mim em cada semana do [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md)
 
+### Semana 32: European Energy
+[Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/04-08-2020_European_Energy/plot/2020-08-04_European_Energy_1.png)  
+[Código](https://github.com/pedrodrocha/TidyTuesday/blob/master/04-08-2020_European_Energy/code/04-08-2020_European_Energy.R)  
+
+
 ### Semana 31: Palmer Penguins
 [Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/28-07-2020_Palmer_Penguins/plot/2020-02-28_Palmer_Penguins11_1.png)  
 [Código](https://github.com/pedrodrocha/TidyTuesday/blob/master/28-07-2020_Palmer_Penguins/code/2020-07-28_Palmer_Penguins.R)  
