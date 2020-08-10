@@ -26,8 +26,11 @@ avatar %>%
   unnest_tokens(word,character_words) %>% 
   anti_join(.,stop_words) -> avatar_tokens
 
+# {tvthemes} font --------------------------------------------------------------
+import_avatar()
 
 # Water  -----------------------------------------------------------------------
+
 
 `%notin%` <- negate(`%in%`)
 
@@ -55,7 +58,7 @@ avatar_tokens %>%
         axis.title = element_blank(),
         plot.title = element_markdown(hjust = .5,
                                       color ="grey20",
-                                      family =  "Candara")) -> water
+                                      family =  "Slayer")) -> water
 
 
 # Earth  -----------------------------------------------------------------------
@@ -82,7 +85,7 @@ avatar_tokens %>%
         axis.title = element_blank(),
         plot.title = element_markdown(hjust = .5,
                                       color ="grey20",
-                                      family =  "Candara")) -> earth
+                                      family =  "Slayer")) -> earth
 
 
 # Fire  ------------------------------------------------------------------------
@@ -110,14 +113,14 @@ avatar_tokens %>%
         axis.title = element_blank(),
         plot.title = element_markdown(hjust = .5,
                                       color ="grey20",
-                                      family =  "Candara")) -> fire
+                                      family =  "Slayer")) -> fire
 
 # Patchwork --------------------------------------------------------------------
 
 plot <- wrap_elements(water) / wrap_elements(earth) / wrap_elements(fire) +
   plot_annotation(title = "Most common words spoken by **Aang**, **Katara** and **Sokka**",
                   subtitle = "_By book of Avatar: The Last Airbender_",
-                  caption = "TidyTuesday #33  |  @pedro_drocha  |  Data: Avery Robbins") &
+                  caption = "TidyTuesday #33  |  Pedro D. Rocha  |  Data: Avery Robbins") &
   theme_avatar(text.font = "Slayer",
                title.size = 16, subtitle.size = 14) &
   theme(legend.position = "None",
