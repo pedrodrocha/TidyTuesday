@@ -3,7 +3,7 @@
 Nesse repositório serão armazenados os gráficos e os códigos feitos por mim em cada semana do [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md)
 
 ### Semana 33: Avatar - The last airbender
-[Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/11-08-2020_Avatar/plot/11-08-2020_Avatar.png)  
+[Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/11-08-2020_Avatar/plot/11-08-2020_Avatar2.png)  
 [Código](https://github.com/pedrodrocha/TidyTuesday/blob/master/11-08-2020_Avatar/code/11-08-2020_Avatar.R)  
 
 ### Semana 32 - European Energy
