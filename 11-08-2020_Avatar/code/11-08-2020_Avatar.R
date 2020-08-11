@@ -10,7 +10,7 @@ library(tidyverse) # ggplot2 et. al.
 library(tidytext)  # For textmining
 library(stopwords) # For antijoining stopwords
 library(patchwork) # for ploting
-library(tvthemes)
+library(tvthemes) # avatar theme
 library(ggtext) # for labels in markdown
 library(pdftools) # for saving the plot
 
