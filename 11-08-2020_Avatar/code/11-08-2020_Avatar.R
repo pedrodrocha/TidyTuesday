@@ -77,6 +77,7 @@ avatar_tokens %>%
   geom_point(size = 3) +
   geom_segment(aes(x = word, xend = word,
                y = 0, yend = n), size = 1) +
+  scale_y_continuous(breaks = seq(0,125,25), limits = c(0,125)) +
   labs(title = "**Earth**") +
   facet_wrap(~character, scales = "free_x") +
   scale_color_avatar(palette = "EarthKingdom") +
@@ -105,6 +106,7 @@ avatar_tokens %>%
   geom_point(size = 3) +
   geom_segment(aes(x = word, xend = word,
                    y = 0, yend = n), size = 1) +
+  scale_y_continuous(breaks = seq(0,125,25), limits = c(0,125)) +
   labs(title = "**Fire**") +
   facet_wrap(~character, scales = "free_x") +
   scale_color_avatar() +
