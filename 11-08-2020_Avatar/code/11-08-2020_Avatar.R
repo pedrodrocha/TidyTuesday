@@ -124,11 +124,10 @@ plot <- wrap_elements(water) / wrap_elements(earth) / wrap_elements(fire) +
   theme_avatar(text.font = "Slayer",
                title.size = 16, subtitle.size = 14) &
   theme(legend.position = "None",
-        axis.title = element_blank(),
         plot.title = element_markdown(color = "grey20"),
         plot.subtitle = element_markdown(),
         plot.caption = element_markdown(hjust = .5))
-plot
+
 # Saving -----------------------------------------------------------------------
 
 
