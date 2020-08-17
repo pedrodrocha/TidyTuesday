@@ -11,7 +11,7 @@ library(tidyverse)
 library(ggtext)
 library(extrafont)
 library(pdftools)
-library(here)
+
 # ---- Data
 
 tuesdata <- tidytuesdayR::tt_load(2020, week = 34)
