@@ -18,44 +18,6 @@ tuesdata <- tidytuesdayR::tt_load(2020, week = 34)
 plants <- tuesdata$plants
 
 
-# ---- Prep.
-
-plants %>%
-  # Pivoting
-  pivot_longer(cols = 6:17,
-               names_to = "threat",
-               values_to = "is_threatened") %>%
-  pivot_longer(cols = 6:11,
-               names_to = "action",
-               values_to = "is_action") %>%
-  # Changing Names
-  mutate(
-    threat = case_when(
-      threat == "threat_AA"    ~ "Agriculture & Aquaculture",
-      threat == "threat_BRU"   ~ "Biological Resource Use" ,
-      threat == "threat_RCD"   ~ "Commercial Development",
-      threat == "threat_ISGD"  ~ "Invasive Species",
-      threat == "threat_EPM"   ~ "Energy Production & Mining",
-      threat == "threat_CC"    ~ "Climate Change",
-      threat == "threat_HID"   ~ "Human Intrusions",
-      threat == "threat_P"     ~ "Pollution",
-      threat == "threat_TS"    ~ "Transportation Corridor",
-      threat == "threat_NSM"   ~ "Natural System Modifications",
-      threat == "threat_GE"    ~ "Geological Events",
-      threat == "threat_NA"    ~ "Threat unknown"
-
-    ),
-    action = case_when(
-      action == "action_LWP" ~ "Land & Water Protection" ,
-      action == "action_SM" ~ "Species Management" ,
-      action == "action_LP" ~ "Law & Policy" ,
-      action == "action_RM" ~ "Research & Monitoring" ,
-      action == "action_EA" ~ "Education & Awareness" ,
-      action == "action_NA" ~ "Current action unknown"
-    )
-
-  ) -> plants_long
-
 # ---- Labels
 
 lab1 <- "The first half of the 20th Century was the period with<br> the highest
@@ -74,7 +36,7 @@ with the goal of reversing <br>this trend."
 
 # ---- Plot
 
-plants_long %>%
+plants %>%
   select(1:6) %>%
   distinct() %>%
   filter(!is.na(year_last_seen),
