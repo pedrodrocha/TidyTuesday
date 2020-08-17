@@ -22,7 +22,7 @@ plants <- tuesdata$plants
 
 lab1 <- "The first half of the 20th Century was the period with<br> the highest
 number of extinctions. Specifically between<br> <b style='color:#c29ba3'>1940
-and 1959</b>, 74 plant species cease from existing in<br> the wild."
+and 1959</b>, 74 plant species ceased to exist in<br> the wild."
 
 lab2 <- "From 1940 to 1999</b> there was a substantial<br> drop in the number
 of species extincted.<br> The lowest number of the time series, 44, was<br>
