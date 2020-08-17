@@ -102,7 +102,7 @@ plot <- plants %>%
                width = NULL,
                fill = NA,
                box.colour = NA,
-               hjust = -.1,
+               hjust = -.14,
                vjust = 0,
                color = "grey20",
                family = "Corbel") +
@@ -117,7 +117,7 @@ plot <- plants %>%
                width = NULL,
                fill = NA,
                box.colour = NA,
-               hjust = .2,
+               hjust = .36,
                vjust = 0,
                color = "grey20",
                family = "Corbel") +
@@ -141,7 +141,7 @@ plot <- plants %>%
         axis.text.y = element_blank(),
         axis.text.x = element_markdown(margin = margin(t = 8),
                                        family = "Corbel"),
-        axis.title.x = element_markdown(hjust = 0.93,
+        axis.title.x = element_markdown(hjust = 0.91,
                                         margin = margin(t = 15),
                                         color = "grey20",
                                         family = "Corbel"),
@@ -150,7 +150,7 @@ plot <- plants %>%
                                         color = "grey20",
                                         family = "Corbel"),
         plot.background = element_rect(color = "#F9F9F9"))
-
+plot
 # ---- Saving
 
 ggsave("18-08-2020_extinctPlants.pdf",
