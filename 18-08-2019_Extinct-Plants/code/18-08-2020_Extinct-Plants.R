@@ -36,7 +36,7 @@ with the goal of reversing <br>this trend."
 
 # ---- Plot
 
-plants %>%
+plot <- plants %>%
   select(1:6) %>%
   distinct() %>%
   filter(!is.na(year_last_seen),
@@ -88,7 +88,7 @@ plants %>%
                width = NULL,
                fill = NA,
                box.colour = NA,
-               hjust = 0.19,
+               hjust = 0.02,
                color = "grey20",
                family = "Corbel") +
   geom_textbox(data = tibble(x = "1920-1939",
@@ -102,11 +102,11 @@ plants %>%
                width = NULL,
                fill = NA,
                box.colour = NA,
-               hjust = -.09,
+               hjust = -.1,
                vjust = 0,
                color = "grey20",
                family = "Corbel") +
-  geom_textbox(data = tibble(x = "1980-199",
+  geom_textbox(data = tibble(x = "1980-1999",
                              y = 55,
                              label = lab3),
                aes( x = x, y = y, label = label),
@@ -117,7 +117,7 @@ plants %>%
                width = NULL,
                fill = NA,
                box.colour = NA,
-               hjust = .03,
+               hjust = .2,
                vjust = 0,
                color = "grey20",
                family = "Corbel") +
@@ -149,15 +149,14 @@ plants %>%
                                         margin = margin(r = 15,l = 1),
                                         color = "grey20",
                                         family = "Corbel"),
-        plot.background = element_rect(color = "#F9F9F9")) -> plot
+        plot.background = element_rect(color = "#F9F9F9"))
 
 # ---- Saving
 
-
 ggsave("18-08-2020_extinctPlants.pdf",
-       height = 5.35,
-       width = 9.36,
-       plot = plot,
+       height = 5.34,
+       width = 9.65,
+       plot = last_plot(),
        device = cairo_pdf)
 
 pdf_convert(pdf = "18-08-2020_extinctPlants.pdf",
