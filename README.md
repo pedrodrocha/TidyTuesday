@@ -1,40 +1,40 @@
 ## TidyTuesday
 
-Nesse reposit贸rio ser茫o armazenados os gr谩ficos e os c贸digos feitos por mim em cada semana do [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md)
+Nesse reposit髍io ser鉶 armazenados os gr醘icos e os c骴igos feitos por mim em cada semana do [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md)
 
 ### Semana 33: Avatar - The last airbender
-[Gr谩fico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/11-08-2020_Avatar/plot/avatar___.png)  
-[C贸digo](https://github.com/pedrodrocha/TidyTuesday/blob/master/11-08-2020_Avatar/code/11-08-2020_Avatar.R)  
+[Gr醘ico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/11-08-2020_Avatar/plot/avatar___.png)  
+[C骴igo](https://github.com/pedrodrocha/TidyTuesday/blob/master/11-08-2020_Avatar/code/11-08-2020_Avatar.R)  
 
 ### Semana 32 - European Energy
-[Gr谩fico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/04-08-2020_European_Energy/plot/2020-08-04_European_Energy_1.png)  
-[C贸digo](https://github.com/pedrodrocha/TidyTuesday/blob/master/04-08-2020_European_Energy/code/04-08-2020_European_Energy.R)  
+[Gr醘ico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/04-08-2020_European_Energy/plot/2020-08-04_European_Energy_1.png)  
+[C骴igo](https://github.com/pedrodrocha/TidyTuesday/blob/master/04-08-2020_European_Energy/code/04-08-2020_European_Energy.R)  
 
 
 ### Semana 31 - Palmer Penguins
-[Gr谩fico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/28-07-2020_Palmer_Penguins/plot/2020-02-28_Palmer_Penguins11_1.png)  
-[C贸digo](https://github.com/pedrodrocha/TidyTuesday/blob/master/28-07-2020_Palmer_Penguins/code/2020-07-28_Palmer_Penguins.R)  
+[Gr醘ico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/28-07-2020_Palmer_Penguins/plot/2020-02-28_Palmer_Penguins11_1.png)  
+[C骴igo](https://github.com/pedrodrocha/TidyTuesday/blob/master/28-07-2020_Palmer_Penguins/code/2020-07-28_Palmer_Penguins.R)  
 
 ### Semana 30 - Australian Pets
 
-[Gr谩fico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/21-07-2020_Australian_Pets/plot/21-07-2020.png)  
-[C贸digo](https://github.com/pedrodrocha/TidyTuesday/blob/master/21-07-2020_Australian_Pets/code/21-07-2020_Australian_Pets.R)  
-[Blog](http://pedrodrocha.com/2020-07-23-TidyTuesday_4/)
+[Gr醘ico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/21-07-2020_Australian_Pets/plot/21-07-2020.png)  
+[C骴igo](https://github.com/pedrodrocha/TidyTuesday/blob/master/21-07-2020_Australian_Pets/code/21-07-2020_Australian_Pets.R)  
+
 
 ### Semana 29 - Astronaut Database
 
-[Gr谩fico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/14-07-2020_Astronaut_database/plot/14-07-2020_Astronaut-Database.png)  
-[C贸digo](https://github.com/pedrodrocha/TidyTuesday/blob/master/14-07-2020_Astronaut_database/code/14-07-2020_Astronaut_database.R)  
-[Blog](http://pedrodrocha.com/2020-07-16-TidyTuesday_3/)
+[Gr醘ico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/14-07-2020_Astronaut_database/plot/14-07-2020_Astronaut-Database.png)  
+[C骴igo](https://github.com/pedrodrocha/TidyTuesday/blob/master/14-07-2020_Astronaut_database/code/14-07-2020_Astronaut_database.R)  
+
 
 ### Semana 28 - Coffee Ratings
 
-[Gr谩fico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/07-07-2020_Coffee%20ratings/plot/07-07-2020.gif)  
-[C贸digo](https://github.com/pedrodrocha/TidyTuesday/blob/master/07-07-2020_Coffee%20ratings/code/07-07-2020.R)  
-[Blog](http://pedrodrocha.com/2020-07-07-TidyTuesday_2/)
+[Gr醘ico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/07-07-2020_Coffee%20ratings/plot/07-07-2020.gif)  
+[C骴igo](https://github.com/pedrodrocha/TidyTuesday/blob/master/07-07-2020_Coffee%20ratings/code/07-07-2020.R)  
+
 
 ### Semana 27 - Claremont Run of X-Men
 
-[Gr谩fico](https://raw.githubusercontent.com/pedrodrocha/TIdyTuesday-pedro_drocha/master/30-06-2020_The_Claremont_Run/graphs/30-06-2020.png?token=APBPDEAKPTG4653OEOA5R227APOMC)  
-[C贸digo](https://github.com/pedrodrocha/TIdyTuesday-pedro_drocha/blob/master/30-06-2020_The_Claremont_Run/code/30-06-2020.R)  
-[Blog](http://pedrodrocha.com/2020-07-01-TidyTuesday_1/)
+[Gr醘ico](https://raw.githubusercontent.com/pedrodrocha/TIdyTuesday-pedro_drocha/master/30-06-2020_The_Claremont_Run/graphs/30-06-2020.png?token=APBPDEAKPTG4653OEOA5R227APOMC)  
+[C骴igo](https://github.com/pedrodrocha/TIdyTuesday-pedro_drocha/blob/master/30-06-2020_The_Claremont_Run/code/30-06-2020.R)  
+
