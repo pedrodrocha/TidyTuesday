@@ -153,8 +153,6 @@ plants %>%
 
 # ---- Saving
 
-ggsave("teste.png",
-       plot = plot)
 
 ggsave("18-08-2020_extinctPlants.pdf",
        height = 5.35,
