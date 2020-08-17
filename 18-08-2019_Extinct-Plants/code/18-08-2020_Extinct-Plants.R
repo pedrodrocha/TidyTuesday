@@ -88,7 +88,7 @@ plot <- plants %>%
                width = NULL,
                fill = NA,
                box.colour = NA,
-               hjust = 0.02,
+               hjust = 0.043,
                color = "grey20",
                family = "Corbel") +
   geom_textbox(data = tibble(x = "1920-1939",
