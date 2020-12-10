@@ -1,0 +1,12 @@
+region,mean_lenght_km,mean_gain_m,mean_highpoint_m,mean_rating,features,id
+Central Cascades,15.170265486725663,7414.01482300885,15573.295752212389,3.0311946902654867,"Mountain views,Dogs allowed on leash,Wildflowers/Meadows,Lakes,Ridges/passes",1
+Central Washington,9.1165,2669.421625,7406.980375,2.79075,"Wildlife,Wildflowers/Meadows,Dogs allowed on leash,Mountain views,Good for kids",2
+Eastern Washington,15.005664335664335,5219.7041958041955,14471.963496503497,2.153006993006993,"Dogs allowed on leash,Wildflowers/Meadows,Wildlife,Mountain views,Fall foliage",3
+Issaquah Alps,8.005194805194805,3192.4984415584418,4938.842727272728,2.545974025974026,"Dogs allowed on leash,Fall foliage,Wildlife,Good for kids,Wildflowers/Meadows",4
+Mount Rainier Area,13.149132653061224,6148.309591836734,17080.618418367347,3.3385714285714285,"Mountain views,Wildflowers/Meadows,Dogs not allowed,Wildlife,Lakes",5
+North Cascades,17.888538205980065,8201.388239202657,16725.142823920265,3.0719933554817276,"Mountain views,Wildflowers/Meadows,Dogs allowed on leash,Ridges/passes,Lakes",6
+Olympic Peninsula,13.086507177033493,5157.33961722488,9256.627224880383,3.323971291866029,"Mountain views,Old growth,Wildlife,Good for kids,Dogs allowed on leash",7
+Puget Sound and Islands,6.825916230366492,1483.6132984293195,1874.464712041885,2.8058638743455497,"Dogs allowed on leash,Good for kids,Wildlife,Fall foliage,Wildflowers/Meadows",8
+Snoqualmie Region,14.071598173515982,7237.196849315069,14669.965251141552,3.166849315068493,"Mountain views,Dogs allowed on leash,Wildflowers/Meadows,Lakes,Ridges/passes",9
+South Cascades,13.591450777202072,5409.400155440415,15526.202227979275,3.090880829015544,"Mountain views,Wildflowers/Meadows,Lakes,Dogs allowed on leash,Wildlife",10
+Southwest Washington,10.791869918699186,3887.0519512195124,5901.746016260163,2.7153658536585366,"Dogs allowed on leash,Good for kids,Wildflowers/Meadows,Rivers,Mountain views",11

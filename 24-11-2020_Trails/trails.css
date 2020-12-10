@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+
+.dots{
+    fill: #444;
+
+}
+
+.line{
+    fill: none;
+    stroke: #de997e;
+    stroke-width: 50;
+    position: fixed;
+    z-index: 1;
+}
+
+.label{
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    font-size: 16px;
+}
+
+.domain{
+    opacity: 0;
+}
+
+.tick line{
+    color: #44444440;
+    shape-rendering: crispEdges;
+    stroke-width: 0.50;
+}
+
+.tick text{
+    color: #44444490;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;  
+    color: #444;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;  
+    color: #444;
+}
+
+.subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;  
+    color: #444;
+}
+
+.caption{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;  
+    color: #444444;
+    opacity: 0.8;
+}
+
+.listening-rect {
+    fill: transparent;  /* Default fill color is black */
+  }
+
+.tooltip {
+    opacity: 1;
+    position: absolute;
+    top: -14px;
+    left: 0;
+    padding: 0.6em 1em;
+    background: #fff;
+    text-align: center;
+    line-height: 1.4em;
+    font-size: 0.9em;
+    border: 1px solid #ddd;
+    z-index: 10;
+    transition: all 0.1s ease-out;
+    pointer-events: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .tooltip:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background: white;
+    border: 1px solid #ddd;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transform: translate(-50%, 50%) rotate(45deg);
+    transform-origin: center center;
+    z-index: 10;
+  }
+  
+  .tooltip-features{
+    margin-bottom: 0.2em;
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 1.4em;
+  }
+
+ .features{
+      font-weight: normal;
+  }
+  .tooltip-rating{
+    margin-bottom: 0.2em;
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 1.4em;
+  }
+
+ .rating{
+    font-weight: normal;
+  }
+
+  .voronoi {
+    fill: transparent;
+  }
+
+
+  .svg-tooltip {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple   Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: rgba(69,77,93,.9);
+    border-radius: .1rem;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    max-width: 320px;
+    padding: .2rem .4rem;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: pre;
+    z-index: 300;
+    visibility: hidden;
+
+}
