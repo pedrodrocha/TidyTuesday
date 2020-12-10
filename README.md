@@ -13,7 +13,7 @@ My contributions to [#TidyTuesday](https://github.com/rfordatascience/tidytuesda
 
 
 
-## 2020, Week 31 - Palmer Penguins ([Code](https://github.com/pedrodrocha/TidyTuesday/blob/master/28-07-2020_Palmer_Penguins/code/2020-07-28_Palmer_Penguins.R))
+## 2020, Week 31: Palmer Penguins ([Code](https://github.com/pedrodrocha/TidyTuesday/blob/master/28-07-2020_Palmer_Penguins/code/2020-07-28_Palmer_Penguins.R))
 ![Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/28-07-2020_Palmer_Penguins/plot/2020-02-28_Palmer_Penguins11_1.png)  
 
 
