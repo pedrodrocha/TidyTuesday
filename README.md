@@ -7,7 +7,7 @@ Nesse repositório estão armazenados os gráficos e os códigos feitos por mim em c
 
 
 
-## Semana 34: Extinct Plants ([Código](https://github.com/pedrodrocha/TidyTuesday/blob/master/18-08-2019_Extinct-Plants/code/18-08-2020_Extinct-Plants.R))
+## Semana 34: Extinct Plants ([Código](https://github.com/pedrodrocha/TidyTuesday/blob/master/18-08-2020_Extinct-Plants/code/18-08-2020_Extinct-Plants.R))
 ![Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/18-08-2019_Extinct-Plants/plot/18-08-2020_extinctPlants_1.png)  
 
 
