@@ -1,6 +1,6 @@
 # TidyTuesday
 
-My contributions to #TidyTuesday, a weekly social data project aimed at the R ecosystem with emphasis on understanding how to summarize and arrange data to make meaningful charts with ggplot2, tidyr, dplyr, and other tools in the tidyverse
+My contributions to [#TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md), a weekly social data project aimed at the R ecosystem with emphasis on understanding how to summarize and arrange data to make meaningful charts with ggplot2, tidyr, dplyr, and other tools in the tidyverse
 
 
 ## 2020, Week 48: Trails ([Code](https://github.com/pedrodrocha/TidyTuesday/blob/master/24-11-2020_Trails/code.R)) 
