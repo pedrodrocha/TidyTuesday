@@ -1,4 +1,4 @@
-# TidyTuesday
+<div style='text-align:center; font-weigth:bold; size:20'> TidyTuesday </div>
 
 My contributions to [#TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md), a weekly social data project aimed at the R ecosystem with emphasis on understanding how to summarize and arrange data to make meaningful charts with ggplot2, tidyr, dplyr, and other tools in the tidyverse.
 
