@@ -9,7 +9,7 @@ My contributions to #TidyTuesday, a weekly social data project aimed at the R ec
 
 
 ## Semana 34: Extinct Plants ([Code](https://github.com/pedrodrocha/TidyTuesday/blob/master/18-08-2020_Extinct-Plants/code/18-08-2020_Extinct-Plants.R))
-![Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/18-08-2019_Extinct-Plants/plot/18-08-2020_extinctPlants_1.png)  
+![Gráfico](https://raw.githubusercontent.com/pedrodrocha/TidyTuesday/master/18-08-2020_Extinct-Plants/plot/18-08-2020_extinctPlants_1.png)  
 
 
 
