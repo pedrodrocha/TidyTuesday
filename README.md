@@ -1,6 +1,6 @@
 # TidyTuesday
 
-My contributions to [#TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md), a weekly social data project aimed at the R ecosystem with emphasis on understanding how to summarize and arrange data to make meaningful charts with ggplot2, tidyr, dplyr, and other tools in the tidyverse.
+My contributions to [#TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md), a weekly social data project aimed at the R ecosystem with emphasis on understanding how to summarize and arrange data to make meaningful charts with ggplot2, tidyr, dplyr, and other tools in the tidyverse. The project was founded in 2018 by [Thomas Mock](https://twitter.com/thomas_mock) and organized by the [R4DS](https://twitter.com/R4DScommunity) ("R for Data Science") online learning community.
 
 
 ## 2020, Week 48: Trails ([Code](https://github.com/pedrodrocha/TidyTuesday/blob/master/24-11-2020_Trails/code.R)) 
